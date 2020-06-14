@@ -1,4 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-ReactDOM.render(<div>sad</div>, document.getElementById("root"));
+import "./styles.css";
+
+import App from "./components/App";
+
+ReactDOM.render(<App />, document.getElementById("root"));
