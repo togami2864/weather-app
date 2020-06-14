@@ -33,7 +33,7 @@ body {
 
 main {
   min-height: 100vh;
-  padding: 25px;
+  padding: 50px;
 }
 
 .App.cold {
@@ -66,6 +66,10 @@ main {
   box-shadow: 0px 5px rgba(58, 53, 53, 0.73);
   background: rgba(255, 255, 255, 0.52);
   transition: 0.4s ease;
+}
+
+.container {
+  margin-top: 100px;
 }
 
 .search-container .search-bar:focus {
@@ -116,4 +120,12 @@ label {
   margin: 5px;
   font-size: 15px;
   font-family: fantasy;
+}
+
+.error {
+  font-size: 70px;
+  color: white;
+  text-align: center;
+  margin-top: 200px;
+  text-shadow: 3px 3px rgba(58, 53, 53, 0.73);
 }

@@ -57,7 +57,7 @@ const App = () => {
           />
         </div>
         {typeof weather.main != "undefined" ? (
-          <div>
+          <div className="container">
             <div className="location-container">
               <div className="location">
                 {weather.name},{weather.sys.country}
@@ -72,7 +72,7 @@ const App = () => {
             </div>
           </div>
         ) : (
-          ""
+          <div className="error">No results found</div>
         )}
       </main>
     </div>
